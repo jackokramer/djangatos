@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.full{
+    background-image: url(../imgs/whitebricks.jpg);
+    background-repeat: no-repeat;
+}
+
+.grid{
+    padding: 3rem;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.grid-title{
+    font-size: 4rem;
+    color: #000;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px maroon;
+}
+
+.container{
+    background:#fffdd0;
+    padding: 2rem;
+    border-radius: .5rem;
+    color: #000;
+}
+
+
+
+.grid-text{
+
+}
+
+
+
+.div-img{
+    width: 100%;
+}
+
+/* gearlisr */
+
+.gear{
+    color: aliceblue;
+    padding: 1rem;
+    margin-top: -40px;
+}
+
+.gear-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.gear-list{
+    list-style-type: none;
+    text-align: center
+}
+
+.gear-item{
+    text-decoration: none;
+    color:antiquewhite;
+    font-weight: bold;
+    border-radius: .4rem;
+    background: #fff;
+    margin-top: 1rem;
+}
+.container2 {
+    background: maroon;
+    padding: 2rem;
+    border-radius: .5rem;
+    color: aliceblue;
+}
+.gear-img{
+    margin: 0 auto;
+}
+
+
+/* media query */
+
+@media(min-width:768px){
+    .grid-text{
+        text-align: left;
+    }
+    .full{
+        display: flex;
+        align-items: flex-start;
+        background-image: url(../imgs/whitebricks.jpg);
+        background-repeat: no-repeat;
+    }
+    .grid{
+        width: 45%;
+    }
+    .gear{
+        width: 45%;
+        margin-top: 35px;
+    }
+}
+
