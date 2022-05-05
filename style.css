@@ -15,6 +15,10 @@ nav {
     background: maroon;
 }
 
+img{
+    width: 100%;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -50,6 +54,7 @@ nav a {
 
 .nav-link {
     transition: 0.7s ease;
+    font-size: 1.5em;
 }
 
 .nav-link:hover {
@@ -59,19 +64,32 @@ nav a {
 .hamburger {
     display: none;
     cursor: pointer;
+    line-height: .2rem;
 }
 
 .bar {
     display: block;
     width: 25px;
     height: .2rem;
-    margin: .25px auto;
+    margin: .5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background: aliceblue;
 }
 
 /* first section */
+.intro{
+    padding:2rem;
+    color: aliceblue;
+    font-size: 1.4rem;
+}
+.intro-title {
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 1px 1px 2px maroon;
+        font-size: 2.5rem;
+    }
+
 
 /* footer */
 footer {
@@ -130,7 +148,7 @@ footer {
 }
 
 .socials a:hover {
-    color: aqua;
+    color: maroon;
 }
 
 .footer-bottom {
@@ -150,6 +168,11 @@ footer {
     text-transform: uppercase;
     opacity: .4;
     font-weight: bold;
+}
+
+.third{
+    padding-top: 3rem;
+    background-image: url(../imgs/whitebricks.jpg);
 }
 
 /* footer end */
@@ -172,8 +195,35 @@ footer {
         height: 200px;
     }
 
-    .firsts{
-        display: block;
+    .first{
+        display: flex;
+    }
+    .row{
+        display: flex;
+    }
+    .carousel-pad{
+        display:block;
+    }
+    .test-title{
+        text-align: center;
+        font-size: 2rem;
+        color: aliceblue;
+    }
+    .col{
+        margin: 1rem;
+        border-radius: .5rem;;
+        flex-direction: column;
+        max-width:400px;
+        padding: 3rem;
+        width: 33%;
+        background-color: slategray;
+        color: whitesmoke;
+    }
+    .intro{
+        width: 45%;
+    }
+    .car-block{
+        width: 45%;
     }
     .hamburger-menu{
         display:none;

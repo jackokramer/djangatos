@@ -14,6 +14,7 @@ img{
 .full{
     background-image: url(../imgs/whitebricks.jpg);
     background-repeat: no-repeat;
+    /* sheight: 450vh; */
 }
 
 .grid{
