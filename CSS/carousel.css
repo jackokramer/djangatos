@@ -36,7 +36,9 @@ body {
 .car-text{
     text-align: center;
     color: #fff;
-    font-size: 1.4rem
+    font-size: 1.4rem;
+    background: #000;
+    padding: 1.4rem;
 }
 
 .carousel-item-visible {
@@ -76,6 +78,12 @@ body {
 
 .next {
     margin-right: 1.4rem;
+}
+
+/* css animation */
+.fade-in {
+    animation: fadeIn 2s;
+    opacity: 1;
 }
 
 @keyframes fadeVisibility {

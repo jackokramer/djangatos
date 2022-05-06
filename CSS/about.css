@@ -19,7 +19,7 @@ img {
     background-image: url(../imgs/woodenbackground.jpg);
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: burlywood;
+    background-color: maroon;
 }
 
 .hero-title {
@@ -27,7 +27,8 @@ img {
 }
 
 .hero-text {
-    font-family: 'Roboto',
+    font-family: 'Roboto';
+    width: 100%;
 }
 
 
@@ -52,6 +53,7 @@ img {
     border: .5rem solid slategray;
     border-radius: .5rem;
     background: #eee;
+    margin: 0 auto;
     }
 
 
@@ -141,6 +143,11 @@ img {
     border-radius: 50%;
 }
 
+.container{
+    margin: 0 auto;
+    /* width: 80%; */
+}
+
 .mug-img {
     justify-content: center;
 }
@@ -185,7 +192,7 @@ img {
 
 #modal {
     background: beige;
-            position: fixed;
+    position: relative;
 
     padding: 20px;
     color: black;

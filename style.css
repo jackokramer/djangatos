@@ -1,7 +1,8 @@
-*{
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
-
 body{
     margin: 0;
     padding: 0;
@@ -90,6 +91,49 @@ nav a {
         font-size: 2.5rem;
     }
 
+/* calendar */
+
+.calendar{
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    background-image: url(../imgs/clay-leconey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border: .6rem solid #000;
+    background-color: maroon;
+}
+
+.cal-form{
+    max-width:500px;
+    background: cornsilk;
+    color:#000;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.second-title{
+        text-shadow: 1px 1px 2px maroon;
+}
+
+.btn-submit{
+    margin-top: 1rem;
+    padding: .75rem;
+    background: maroon;
+    border: none;
+    color: whitesmoke;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    opacity: .75;
+}
+
+
 
 /* footer */
 footer {
@@ -175,6 +219,51 @@ footer {
     background-image: url(../imgs/whitebricks.jpg);
 }
 
+.source{
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+}
+
+.col{
+    border-top: 4px solid #0e1d29;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 4rem;
+    /* margin: 1rem; */
+    border-radius: .5rem;
+    width: 90%;
+    height: 200px;
+    background-color: slategray;
+    color: whitesmoke;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    max-width: 400px;
+    animation: zoom-in-zoom-out 5s ease-in infinite;
+}
+
+.col p{
+    padding: 2rem;
+}
+
+.test-title {
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.quite-text {
+    height: 80%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.band-name{
+    margin-top: -30px;text-align: center;
+}
+
 /* footer end */
 
 
@@ -213,11 +302,16 @@ footer {
         margin: 1rem;
         border-radius: .5rem;;
         flex-direction: column;
-        max-width:400px;
-        padding: 3rem;
+        padding: 1rem;
         width: 33%;
-        background-color: slategray;
-        color: whitesmoke;
+    }
+    .quite-text{
+        height: 80%;
+        padding:1rem;
+        text-align: center;
+    }
+    .band-name{
+        margin-top: -1000px
     }
     .intro{
         width: 45%;
@@ -228,6 +322,13 @@ footer {
     .hamburger-menu{
         display:none;
     }
+}
+
+/* css animations */
+
+.fade-in {
+    animation: fadeIn 2s;
+    opacity: 1;
 }
 
 /* navbar */
@@ -268,3 +369,22 @@ footer {
         left: 0;
     }
 }
+
+
+/* keyframes */
+/*
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+*/
