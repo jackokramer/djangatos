@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="CSS/carousel.css">
     <link rel="stylesheet" href="CSS/home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Diplomata&family=Stint+Ultra+Expanded&family=Yatra+One&display=swap"
+            rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Home Page</title>
 </head>
@@ -23,7 +28,10 @@
                     <a href="about.html" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="news.html" class="nav-link">News</a>
+                    <a href="music.html" class="nav-link">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">Shows/News</a>
                 </li>
                 <li class="nav-item">
                     <a href="gear.html" class="nav-link">Gear</a>
@@ -31,7 +39,7 @@
                 </li>
             </ul>
         </div>
-        <label class="logo" for=""><img src="imgs/djangatos-large-new.png" alt="cat food" /></label>
+        <label class="logo" for=""><img src="imgs/djangatos-large-new.png" alt="cat food" class="cat" /></label>
         <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -39,28 +47,37 @@
         </div>
     </nav>
     <div class="first">
+        <div class="banner-img">
+        <img src="imgs/djangatos-banner copy.png" alt="logo" class="banner">
+        </div>
         <div class="intro fade-in">
-            <h2 class="intro-title">Who we Are</h2>
+            <h2 class="intro-title">Meet the Cats</h2>
                 <div class="title-text">
+                <p>Django Cats (Spanish Gatos), or jazz musicians (cats) partial to the French Gypsy Jazz stylings of Django Reinhardt.</p>
                 <p>Djangatos is THE band to catch in Silicon Valley, dazzling audiences from the SF Peninsula to the Santa Cruz coast.
                 Featuring a unique blend of Hot Club jazz, Tin Pan Alley classics, Americana, and manouche swing originals, the trio is
                 the perfect match for sipping wine or hitting the dance floor.</p>
                 </div>
         </div>
         <div class="car-block ">
-            <h1 class="title-carousel">Some Photos</h1>
             <div class="carousel-pad">
+                            <h1 class="title-carousel">Some Photos</h1>
+
                 <div class="carousel fade-in">
                     <div class="carousel-item">
                         <img src="imgs/Gambling.jpg" class="carousel-item-img" alt="">
                         <p class="car-text">“Talk about tappin' your toes! These guys will knock your socks right off them toes!”</p>
                     </div>
                     <div class="carousel-item carousel-item-visible">
-                        <img src="imgs/Instruments Cat.jpg" alt="" class="carousel-item-img">
+                        <img src="imgs/playing-outside.jpg" alt="" class="carousel-item-img">
                         <p class="car-text"></p>
                     </div>
                     <div class="carousel-item">
-                        <img src="imgs/No Instruments.jpg" class="carousel-item-img" alt="">
+                        <img src="imgs/bench-smiles-no-instruments.jpg" class="carousel-item-img" alt="">
+                        <p class="car-text"></p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/standing-back.jpg" class="carousel-item-img" alt="">
                         <p class="car-text"></p>
                     </div>
                     <div class="carousel-actions">
@@ -73,7 +90,6 @@
         </div>
     </div>
     <div class="seconds">
-        <h2 class="second-text">Calendar</h2>
         <div class="calendar">
             <div class="cal-form">
                 <h1 class="second-title">Calendar</h1>
@@ -89,33 +105,33 @@
     </div>
     <div class="third">
         <h2 class="test-title">Testimonials</h2>
-        <div class="row">
-            <div class="col">
-            <p class="quite-text">“Robert’s playing, song choice, and all-around impressive interpretations make for a great show. If you like guitar at
-            its best, don’t miss him!
-            Robert Berry</p>
-
+        <div class="row flex-container">
+            <div class=" flex-item">
+            <p class="quite-text">“Going to a Djangatos concert is better than any energy drink ever invented. They play with dazzling skill, infectious
+            energy, and a melodic joy that does their namesake proud.”</p>
             </div>
-            <div class="col">
-                <p class="quite-text">“Robert’s playing, song choice, and all-around impressive interpretations make for a great show. If you like guitar at
-                its best, don’t miss him!” Robert Berry</p>
+            <div class=" flex-item">
+                <p class="quite-text">“The gypsy jazz trio plays Django’s music with masterful authority while at the same time breathing fresh life into a
+                classic sound. The effect was like being transported to Paris circa 1940.”</p>
+                <p class="name">Gerad</p>
             </div>
-            <div class="col">
+            <div class=" flex-item">
                 <p class="quite-text">“Robert can be sly and soulful one minute and aggressive and acrobatic the next, taking the guitar through a stylistic
-                workout you’ll enjoy!”<span class="name"> Randy Leago</span>(Beach Boys and Nashville studio saxophonist)</p>
+                workout you’ll enjoy!”</p><p class="name"> Randy Leago (Beach Boys and Nashville studio saxophonist)</p>
 </p>
             </div>
         </div>
+
     </div>
 <footer>
     <div class="footer-content">
         <h3>Djangatos</h3>
         <p class="footer-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quidem?</p>
         <ul class="socials">
-            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com/Djangatos"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/djangatos/"><i class="fa fa-instagram"></i></a></li>
             <li><a href=""><i class="fa fa-twitter"></i></a></li>
             <li><a href=""><i class="fa fa-youtube"></i></a></li>
-            <li><a href=""><i class="fa fa-linkedin-square"></i></a></li>
         </ul>
     </div>
     <div class="footer-bottom">

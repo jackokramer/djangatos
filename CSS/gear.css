@@ -7,6 +7,14 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Cinzel Decorative',
+    cursive;
+    font-family: 'Diplomata',
+    cursive;
+    font-family: 'Stint Ultra Expanded',
+    cursive;
+    font-family: 'Yatra One',
+    cursive;
 }
 
 img{
@@ -14,8 +22,9 @@ img{
 }
 
 .full{
-    background-image: url(../imgs/whitebricks.jpg);
+    background-image: url(../imgs/clay-leconey.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     /* sheight: 450vh; */
 }
 
@@ -62,7 +71,7 @@ img{
 
 .gear-title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: #fff;
     font-weight: bold;
     text-shadow: 1px 1px 2px #000;
@@ -98,11 +107,15 @@ img{
     .grid-text{
         text-align: left;
     }
+    .grid-title{
+         font-size: 1.5rem;
+    }
     .full{
         display: flex;
         align-items: flex-start;
-        background-image: url(../imgs/whitebricks.jpg);
+        background-image: url(../imgs/clay-leconey.jpg);
         background-repeat: no-repeat;
+
     }
     .grid{
         width: 45%;
