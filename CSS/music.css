@@ -11,3 +11,119 @@ body {
     font-family: 'Stint Ultra Expanded',cursive;
     font-family: 'Yatra One',cursive;
 }
+
+
+header{
+    padding: 2rem;
+    text-align: center;
+    color: whitesmoke;
+    background: maroon;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    border: 3px lightgray solid;
+    box-shadow:12px 12px 2px 1px rgba(24, 24, 25, 0.2)
+}
+
+/* classes */
+
+.first {
+    padding: 3rem;
+}
+
+.music-page-title{
+    color: whitesmoke;
+    text-align: center;
+}
+.music-below-text{
+
+}
+
+.music-header-text{
+    text-align: center;
+    color: whitesmoke;
+    padding: 2rem;
+}
+
+.seconds{
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.music-desc{
+/* add properties here */
+}
+
+.more-music{
+    color: whitesmoke;
+    padding: 1.5rem;
+    max-width: 850px;
+}
+
+.card{
+    background: rgb(3, 3, 67);
+    padding: 3rem;
+    color: whitesmoke;
+    border-radius: 8px;
+    border: 3px lightgray solid;
+    box-shadow: 3px 3px #000, -1em 0 .4em #000;
+}
+
+.seconds{
+    display: flex;
+    flex-direction:column;
+    margin: 0 auto;
+    padding: 2rem;
+        background: maroon;
+}
+
+.btn{
+    cursor: pointer;
+    padding: .5em 1rem;
+    color: #222;
+    background:#fff;
+    border: none;
+    border-radius: .25em;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fa-play{
+    margin-right: .25rem;
+}
+
+.btn:hover{
+    color: whitesmoke;
+    font-weight: 700;
+    background: rgb(3, 3, 67);
+}
+
+.seconds> *{
+    width: 100%;
+}
+
+.song-meta{
+    font-size: 12px;
+}
+
+@media (min-width: 32.5rem){
+    .seconds{
+        flex-direction:row;
+        flex-grow: 1;
+    }
+    .music-desc{
+        max-width: 25rem;
+    }
+}
+
+.player{
+    padding: 4rem;
+    margin: 0 auto;
+    background-image: url(../imgs/clay-leconey.jpg);
+
+}

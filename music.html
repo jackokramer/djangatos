@@ -46,6 +46,64 @@
         </div>
     </nav>
     <div class="first">
+        <div class="container">
+            <header>
+                        <h1 class="music-page-title">Swing Around</h1>
+
+                <p class="music-title">Gypsy out and to their Listen to Their Music</p>
+                <p class="music-header-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam perspiciatis repudiandae animi quod? Accusantium voluptatem ducimus eligendi magnam molestias atque a modi adipisci! Harum sunt doloremque alias fuga commodi.
+                </p>
+            </header>
+            <section class="subscribe">
+
+            </section>
+
+        </div>
+       </div>
+       <div class="seconds">
+                <section class="music-desc">
+                    <div class="card">
+                        <img src="imgs/playing-outside.jpg" alt="grass with due on it" class="card-cover-image">
+                        <h2 class="card-title">Grass Cats</h2>
+                        <p class="card-host">Written By: Whitmeyer and Co</p>
+                        <p class="card-description">All you'll ever need to know about grass, all in one place</p>
+                        <button class="btn"><i class="fa fa-hand-back-point-down"></i>
+                            <i class="fa fa-hand-middle-finger"></i>
+                            Subscribe</button>
+                    </div>
+                </section>
+
+                <section class="more-music">
+                    <h2 class="section-title text-light">Recent Uploaded:</h2>
+                    <div class="song-card flow-content">
+                        <h3 class="song-title">Song #01: Grass in all it’s glory</h3>
+                        <p class="song-meta"><span class="text-light">by</span> John Grassmith <span class="text-light">on</span>
+                            January 24, 2020</span></p>
+                        <button class="btn"><i class="fa fa-play"></i>Listen Now</button>
+                    </div>
+                    <div class="song-card flow-content">
+                        <h3 class="song-title">Song #02: Giving grass the credit that it’s due</h3>
+                        <p class="song-meta"><span class="text-light">by</span> John Grassmith <span class="text-light">on</span>
+                            January 25, 2020</span></p>
+                        <button class="btn"><i class="fa fa-play"></i>Listen Now</button>
+                    </div>
+                    <div class="song-card flow-content">
+                        <h3 class="song-title">Song #03: When your grass start to act up and you just don’t know what to do
+                            about
+                            it</h3>
+                        <p class="song-meta"><span class="text-light">by</span> John Grassmith <span class="text-light">on</span>
+                            January 26, 2020</span></p>
+                        <button class="btn"><i class="fa fa-play"></i>Listen Now</button>
+                    </div>
+                    <div class="song-card flow-content">
+                        <div id="embed-iframe">
+
+                        </div>
+                    </div>
+
+                </section>
+       </div>
+       <div id="player">
        </div>
     <footer>
         <div class="footer-content">
@@ -54,7 +112,7 @@
             <ul class="socials">
                 <li><a href="https://www.facebook.com/Djangatos"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/djangatos/"><i class="fa fa-instagram"></i></a></li>
-                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-venmo"></i></a></li>
                 <li><a href=""><i class="fa fa-youtube"></i></a></li>
             </ul>
         </div>
@@ -64,6 +122,17 @@
     </footer>
     <script src="index.js"></script>
     <script src="JS/carousel.js"></script>
+    <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async>
+        window.onSpotifyIframeApiReady = (IFrameAPI) => {
+                let element = document.getElementById('embed-iframe');
+                let options = {
+                    uri: 'spotify:episode:7makk4oTQel546B0PZlDM5'
+                };
+                let callback = (EmbedController) => { };
+                IFrameAPI.createController(element, options, callback);
+            };
+    </script>
+    <script src="JS/youtube.js"></script>
 </body>
 
 </html>

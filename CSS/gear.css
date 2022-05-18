@@ -115,7 +115,7 @@ img{
         align-items: flex-start;
         background-image: url(../imgs/clay-leconey.jpg);
         background-repeat: no-repeat;
-
+        justify-content: space-evenly;
     }
     .grid{
         width: 45%;
@@ -123,6 +123,9 @@ img{
     .gear{
         width: 45%;
         margin-top: 35px;
+    }
+    .container2{
+            margin: 0 auto;
     }
 }
 
