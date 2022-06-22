@@ -48,7 +48,8 @@ html {
 
 
 main {
-    max-width: max-content;
+    /* max-width: max-content; */
+    width: 60%;
     margin: 3em auto 0 auto;
     margin-bottom: 2rem;
     padding: 1.5em;
@@ -64,7 +65,7 @@ main {
 
 /* For the month */
 .month-indicator {
-    color: var(--blue-grey-700);
+    color: aliceblue;
     text-align: center;
     font-weight: 500;
 }
@@ -109,7 +110,7 @@ main {
     height: 4.5ch;
     border-radius: 50%;
     background-color: transparent;
-    color: var(--blue-grey-600);
+    color: aliceblue;
 }
 
 .date-grid button:hover,

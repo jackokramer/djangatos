@@ -28,7 +28,7 @@ picture {
 .container{
     padding: 2rem;
     background-image: url(../imgs/instruments-grey.jpg);
-        background-size: cover;
+    background-size: cover;
 }
 
 .photo{

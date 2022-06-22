@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="CSS/news.css">
+    <link rel="stylesheet" href="CSS/contact.css">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link
@@ -54,6 +55,22 @@
     <div class="section1">
         <h2 class="one-title">Book Us</h2>
         <p class="one-text">Please email us for possible inqueries on shows shows at <a href="mailto:djangatos@gmail.com" class="email">djangatos@gmail.com</a></p>
+        <br>
+            <form action="https://formsubmit.co/djangatos@email.com" method="POST">
+                <div class="contact-form">
+                    <div class="fields">
+                        <input type="hidden" name="_subject" value="New Request!">
+                        <input type="hidden" name="_next" value="https://djangatos-thanks.co/thanks.html">
+                        <p class="name">Name:  <input type="text" name="name" required></p>
+                        <p class="email">Email:  <input type="email" name="email" placeholder="Email Address"></p>
+                        <p> Comment</p>
+                        <textarea type="text" name="message" class="comment" placeholder="leave your venue and date below">
+                                </textarea>
+                        <br>
+                        <button class="btn-primary" type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
     </div>
     <div class="section-two">
         <div class="rowz">
@@ -68,9 +85,7 @@
                 <ul>
                     <li>Lorem ipsum dolor sit.</li>
                     <li>Lorem ipsum dolor sit.</li>
-                                        <li>Lorem ipsum dolor sit.</li>
-
-
+                    <li>Lorem ipsum dolor sit.</li>
                 </ul>
             </div>
         </div>

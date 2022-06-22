@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+    .contact-form {
+            text-align: center;
+            max-width: 800px;
+            background-color: maroon;
+            border: 4px solid slategray;
+            margin: 0 auto;
+            padding: 3rem;
+            border-radius: 8px;
+        }
+
+.fields {
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-primary {
+    padding: .75rem 1.5rem;
+    background: cream;
+    border: none;
+    color: slategray;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.btn-primary:hover {
+    background: rgb(2, 2, 95);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.fields p{
+    color: aliceblue;
+    margin-left: 1rem;
+    font-size: 20px;
+}
