@@ -22,6 +22,9 @@ img{
 }
 
 .full{
+    display: block;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
     background-image: url(../imgs/clay-leconey.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +35,6 @@ img{
     padding: 3rem;
     color: aliceblue;
     text-align: center;
-
 }
 
 .grid-title{
@@ -43,6 +45,7 @@ img{
 }
 
 .container{
+    margin-top: 10px;
     background:#fffdd0;
     padding: 2rem;
     border-radius: .5rem;
@@ -50,19 +53,35 @@ img{
     box-shadow: 5px 5px #000;
 }
 
+.gear-link{
+    text-decoration: none;
+    color: navy;
+    font-size: 1.2rem;
+}
 
+.gear-logo{
+    padding: 1rem;
+}
 
 .grid-text{
 
 }
 
-
+.instruments-amps {
+    text-shadow: 2px 2px rgb(1, 1, 107);
+    font-style: italic;
+    background: maroon;
+    padding: 2rem;
+    color: aliceblue;
+    border-radius: 8px;
+    border: 3px solid black
+}
 
 .div-img{
     width: 100%;
 }
 
-/* gearlisr */
+/* gearlist */
 
 .gear{
     color: aliceblue;
@@ -96,9 +115,15 @@ img{
     padding: 2rem;
     border-radius: .5rem;
     color: aliceblue;
+    border: 4px solid #fff;
 }
 .gear-img{
     margin: 0 auto;
+}
+
+.ron-guitar{
+    max-width:400px;
+    max-height: 300px;
 }
 
 
@@ -129,5 +154,19 @@ img{
             margin: 0 auto;
             box-shadow: 3px 3px 2px #000;
     }
+    .instruments-amps {
+        font-size: 26px;
+    }
+    .grid-title{
+        font-size: 26px;
+    }
 }
 
+@media(max-width: 650px){
+    .instruments-amps {
+        font-size:16px;
+    }
+    .grid-title{
+        font-size: 20px;
+    }
+}

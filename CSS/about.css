@@ -371,14 +371,20 @@ img {
     }
 
     .container {
-        width: 60%;
+        width: 80%;
     }
 
     .sections {
         display: flex;
     }
 
-    .second {}
+    .second {
+    }
+
+    .second-text{
+        width: 80%;
+        margin: 0 auto;
+    }
 
     .third {
         display: flex;

@@ -37,8 +37,24 @@ header{
     color: whitesmoke;
     text-align: center;
 }
-.music-below-text{
 
+.music-page-subtitle{
+    font-size: 2rem;
+}
+
+.music-below-text{
+}
+
+.stream-platform{
+    display: block;
+    list-style: none;
+}
+
+.stream-platform-a{
+    text-decoration: none;
+    color:antiquewhite;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .music-header-text{
@@ -100,7 +116,7 @@ header{
 .btn:hover{
     color: whitesmoke;
     font-weight: 700;
-    background: rgb(3, 3, 67);
+    background: rgb(53, 53, 89);
 }
 
 .seconds> *{
@@ -121,9 +137,87 @@ header{
     }
 }
 
+.div-video{
+    margin: 0 auto;
+}
+
+.video-titles{
+    color: beige;
+    text-align: center;
+}
+
+.videos{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* Youtube styling */
+.youtube-container{
+    width: 860px;
+    height: 200vh;
+    background: beige;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 3rem;
+}
+
+.youtube-logo{
+    width: 350px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.yt-header, #video{
+        text-align: center;
+        margin: 0 auto;
+        width: 560px;
+        background: #FFF;
+}
+
+.yt-main {
+    margin-top: 20px;
+    padding: 3rem;
+    height: auto;
+    background: maroon;
+    color: whitesmoke;
+}
+
+#video{
+    margin-top: 20px;
+    background: brown;
+    padding: 1rem;
+}
+
+.youtube-playlist{
+    margin-top: 10px;
+        display: flex;
+        background: 930909;
+        padding-right: 1rem;
+        padding: 2rem;
+        border: 2px solid #fff;
+        border-radius: 8px;
+}
+.youtube-playlist:hover {
+    border: 2px solid rgb(0, 240, 253);
+}
+
+.details {
+    align-items: center;
+    padding-left: 1rem;
+    margin-bottom: -20px;
+}
+
+.thumb {
+    height: 5rem;
+    width: 150px;
+    border-radius: 2px solid;
+}
+/* end youtube styling */
 .player{
     padding: 4rem;
     margin: 0 auto;
     background-image: url(../imgs/clay-leconey.jpg);
-
 }
