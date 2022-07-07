@@ -42,6 +42,13 @@ img {
     width: 100%;
 }
 
+.hero-text-section{
+    padding: 1rem;
+    background-color: #000;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
 
 .hero-img {
     width: 300px;
@@ -55,6 +62,7 @@ img {
 .hero-p{
     max-width: 600px;
     font-size: 20px;
+    font-family: 'Stint Ultra Expanded', cursive;
 }
 
 .trio-fave{
@@ -117,7 +125,15 @@ img {
     font-size: 36px;
     color: #fffdd0;
     text-align: center;
+}
 
+.second-p{
+    font-family: 'Stint Ultra Expanded',cursive;
+}
+
+.born{
+    color: whitesmoke;
+    font-weight: bold;
 }
 
 /* end second section */

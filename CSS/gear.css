@@ -64,7 +64,8 @@ img{
 }
 
 .grid-text{
-
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-weight: 600;
 }
 
 .instruments-amps {

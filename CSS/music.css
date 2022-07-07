@@ -61,6 +61,13 @@ header{
     text-align: center;
     color: whitesmoke;
     padding: 2rem;
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-weight: 600;
+}
+
+.music-title{
+    font-family: 'Stint Ultra Expanded', cursive;
+        font-weight: 600;
 }
 
 .seconds{
@@ -86,6 +93,11 @@ header{
     border-radius: 8px;
     border: 3px lightgray solid;
     box-shadow: 5px 5px 5px #000;
+}
+
+.card p{
+    font-family: 'Stint Ultra Expanded', cursive;
+        font-weight: 600;
 }
 
 .seconds{
@@ -125,6 +137,8 @@ header{
 
 .song-meta{
     font-size: 12px;
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-weight: 600;
 }
 
 @media (min-width: 32.5rem){
@@ -175,6 +189,12 @@ header{
         margin: 0 auto;
         width: 560px;
         background: #FFF;
+}
+
+.yt-h2{
+    color: #000;
+    font-size: 1.2rem;
+    /* text-shadow: 4px 4px #5f0202;; */
 }
 
 .yt-main {
