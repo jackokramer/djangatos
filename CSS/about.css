@@ -184,6 +184,7 @@ img {
 }
 
 /* modal styling */
+/* deleted class feature from line 116 and line 163
 .feature {
     margin: 0;
     padding: 50px;
@@ -191,7 +192,8 @@ img {
         Helvetica,
         sans-serif;
     text-align: center;
-}
+    display: none;
+}*/
 /* Person quotes */
 .quote{
     line-height: 16px;
@@ -199,6 +201,8 @@ img {
     background: rgb(1, 1, 97);
     border-radius: .5rem;
     color: aliceblue;
+    font-weight: 600;
+    padding: 1rem;
     margin-bottom: .75rem;
 }
 .person{
@@ -295,7 +299,7 @@ img {
 #modal {
     background: beige;
     position: relative;
-    padding: 20px;
+    padding: 10px;
     color: black;
     font-size: 1rem;
     height: 250px;
@@ -303,7 +307,7 @@ img {
     max-width: 700px;
     border: 2px solid maroon;
     position: relative;
-    top: 120%;
+    top: 160%;
 }
 
 /* Work on the modal positions */
@@ -324,7 +328,7 @@ img {
     display: none;
     width: 100%;
     height: 100%;
-    top: 0;
+    /* top: -400px; */
     left: 0;
     bottom: 0;
     right: 0;
@@ -334,15 +338,17 @@ img {
 #modals{
     background: beige;
     position: relative;
-    padding: 20px;
+    padding: 50px;
+    /* padding-bottom: 6rem; */
     color: black;
     font-size: 1rem;
-    height: 550px;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     max-width: 700px;
     border: 2px solid maroon;
     position: relative;
-    top: 120%;
+    /* bottom: -450%; */
 }
 
 #overlays{
@@ -361,11 +367,12 @@ img {
     color: aliceblue;
     font-size: 1rem;
     font-weight: 400;
+    text-align: center;
     margin: 0 auto;
     height: 250px;
     max-width: 700px;
     border: 2px solid whitesmoke;
-    top: 180%;
+    top: 200%;
 }
 
 @media (min-width: 700px) {

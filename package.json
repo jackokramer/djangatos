@@ -1,0 +1,22 @@
+{
+  "name": "djangatos",
+  "version": "1.0.0",
+  "description": "djangatos-package",
+  "main": "yes",
+  "scripts": {
+    "test": "djangatos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackokramer/djangatos.git"
+  },
+  "keywords": [
+    "django"
+  ],
+  "author": "jack kramer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackokramer/djangatos/issues"
+  },
+  "homepage": "https://github.com/jackokramer/djangatos#readme"
+}

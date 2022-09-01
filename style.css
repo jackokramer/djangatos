@@ -16,6 +16,7 @@ body{
     cursive;
     font-family: 'Yatra One',
     cursive;
+    color: aliceblue;
 }
 
 h1, h2{
@@ -149,18 +150,10 @@ nav a {
 
 .home-text{
     font-family: 'Stint Ultra Expanded', cursive;
+    font-weight: 500;
 }
 
 /* flyer-start */
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    color: aliceblue;
-}
 
 .flyers {
     background: #0e1d29;
@@ -188,7 +181,7 @@ body {
 .flyers-shows {
     width: 300px;
     height: 450px;
-    border: 1em solid beige;
+    border: 1em ridge rgba(165, 42, 42, 0.658);
     border-radius: 8px;
 }
 
@@ -253,6 +246,8 @@ footer {
     width: 100vw;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: #fff;
 }
 
@@ -325,6 +320,15 @@ footer {
     font-weight: bold;
 }
 
+.portfolio{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: bold;
+    color: rgb(231, 228, 228);
+    font-family: 'Stint Ultra Expanded';
+    text-decoration: none;
+    }
+
 .third{
     padding-top: 3rem;
     background-image: url(../imgs/woodenbackground.jpg);
@@ -378,7 +382,7 @@ footer {
 }
 
 .name{
-    margin-top: -3rem;
+    margin-top: -1rem;
     text-align: center;
 }
 
@@ -412,7 +416,7 @@ footer {
         width: auto;
     }
         .flex-item {
-            height: 300px;
+            height: 450px;
             width: 80%;
         }
         .cat{
@@ -422,17 +426,31 @@ footer {
             margin-top: -3rem;
 }
 
-@media (min-width: 650px){
+@media (max-width: 600px){
+    .flex-item{
+        width: 80%;
+        height: 600px;
+    }
+
+}
+
+@media (min-width: 700px){
     /* .flex-item {
         height: 300px;
         width: 60%;
         }*/
     .name {
      margin-top: -2rem;
-}
-.test-title {
+    }
+    .test-title {
     font-size: 3rem;
-}
+    }
+    .flyers{
+        display: block;
+    }
+    .col-flyer{
+        display: inline-block;
+    }
 }
 
 /* @media (min-width: 600) {
@@ -450,10 +468,11 @@ Trying to set the logo on top and the menu items below
  } */
 @media (min-width: 800px) {
     .flex-container {
-                display: flex;
-                justify-content: space-evenly;
-                border: 5px solid #000;
-                padding: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: 5px solid #000;
+        padding: 2em;
             }
     /* .menu {
         display: block;
@@ -467,7 +486,7 @@ Trying to set the logo on top and the menu items below
         border: 5px solid #aaa;
         background-color: brown;
         color: #fff;
-        height: 350px;
+        height: 450px;
         padding: 0.5em;
         width: 33.33%;
         background-image: url(../imgs/woodenbackground.jpg);
@@ -592,6 +611,7 @@ Trying to set the logo on top and the menu items below
     .nav-menu.active {
         left: 0;
     }
+
 }
 }
 
